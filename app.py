@@ -53,4 +53,4 @@ def About():
    return render_template('about.html', author='Shaikh Noor Abbas', version='1.0.0')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
